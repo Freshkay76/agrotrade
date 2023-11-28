@@ -20,13 +20,13 @@ export default function NavBar () {
                     <li className={`${montserrat_500.className} text-green-700 hover:text-yellow-700`}>
                         <Link href="/">Home</Link>
                     </li>
-                    <li className={`${montserrat_500.className} text-green-700 hover:text-yellow-700`}>
+                    <li className={`${montserrat_500.className}hidden md:block text-green-700 hover:text-yellow-700`}>
                         <Link href="/about-us">About us</Link>
                     </li>
-                    <li className={`${montserrat_500.className} text-green-700 hover:text-yellow-700`}>
+                    <li className={`${montserrat_500.className}hidden md:block text-green-700 hover:text-yellow-700`}>
                         <Link href="/contact-us">Contact us</Link>
                     </li>
-                    <li className={`${montserrat_500.className} text-green-700 hover:text-yellow-700`}>
+                    <li className={`${montserrat_500.className}hidden md:block text-green-700 hover:text-yellow-700`}>
                         <Link href="/products">Products</Link>
                     </li>
                 </ul>
