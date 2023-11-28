@@ -1,4 +1,4 @@
-export function InfoBox ({children}) {
+export default function InfoBox ({children}) {
     return (
         <>
         {children}

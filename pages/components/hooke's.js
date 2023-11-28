@@ -6,7 +6,7 @@ const PoppinsRegular = Poppins({
     weight:'600'
 });
 
-export function TallyCounter() {
+export default function TallyCounter() {
     const [tally,setTally] = React.useState(0);
 
 React.useEffect(() => {
